@@ -9,7 +9,7 @@ export default function Login({ setAuth }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Dummy check
-    if (email === "admin@example.com" && password === "admin123") {
+    if (email === "harsha@gmail.com" && password === "admin123") {
       setAuth(true);
       navigate("/dashboard");
     } else {

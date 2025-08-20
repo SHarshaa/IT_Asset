@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "../components/Navbar";
+//import { API_URI } from "./api";
 
 export default function Assignments({ setAuth }) {
   const [assignments, setAssignments] = useState([]);
